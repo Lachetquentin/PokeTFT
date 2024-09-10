@@ -5041,7 +5041,7 @@ export class Raikou extends Pokemon {
   atk = 30
   def = 5
   speDef = 5
-  maxPP = 130
+  maxPP = 100
   range = 1
   skill = Ability.VOLT_SWITCH
   attackSprite = AttackSprite.ELECTRIC_MELEE
@@ -5055,7 +5055,7 @@ export class Entei extends Pokemon {
   atk = 30
   def = 5
   speDef = 5
-  maxPP = 130
+  maxPP = 100
   range = 1
   skill = Ability.FLAME_CHARGE
   attackSprite = AttackSprite.FIRE_MELEE
@@ -8214,7 +8214,7 @@ export class Arcanine extends Pokemon {
   types = new SetSchema<Synergy>([Synergy.FIRE, Synergy.FIELD])
   rarity = Rarity.UNCOMMON
   stars = 2
-  hp = 140
+  hp = 160
   atk = 14
   def = 5
   speDef = 5
